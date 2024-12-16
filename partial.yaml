@@ -1,0 +1,5 @@
+{{- define "myapp.labels" }}
+labels:
+  app: {{ .Release.Name }}
+  version: {{ .Chart.Version }}
+{{- end }}
